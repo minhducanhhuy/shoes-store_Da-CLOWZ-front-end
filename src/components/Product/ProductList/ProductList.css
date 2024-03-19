@@ -1,0 +1,11 @@
+.productList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 120px;
+  flex-wrap: wrap;
+}
+
+.productList-pagination {
+  margin-top: 68px;
+}

@@ -1,0 +1,186 @@
+.header {
+  width: auto;
+  margin-bottom: 36px;
+}
+
+.header-info {
+  height: 40px;
+  padding: 0px 120px;
+  color: #fff;
+  background-color: #1cb803;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-info_contact-gmail,
+.header-info_contact-phoneNumber {
+  margin: 0 12px;
+}
+
+.header-info_contact-gmail {
+  margin-left: 64px;
+}
+
+.header-info_contact {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header-info_media {
+  padding-right: 4px;
+}
+
+.header-info-icon {
+  font-size: 20px;
+  padding: 0 8px;
+  color: #fff;
+}
+
+.header-container {
+  height: 100px;
+  margin: 0 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo-icon {
+  width: 6.8rem;
+}
+
+.header-search {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-search_input {
+  height: 49px;
+  width: 70%;
+  font-size: 16px;
+  margin-right: 8px;
+  padding: 0 16px;
+  border: 1px #000 solid;
+  outline-color: #3c7087f5;
+  border-radius: 5px;
+}
+
+.header-search_btn {
+  height: 50px;
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 0 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.header-search_btn:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+.header-user {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-user_account {
+}
+
+.header-user_account-login,
+.header-user_account-register {
+  margin-right: 24px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+}
+
+.header-user_account-board {
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 6px 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 24px;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border: 1px solid #c9c2c2;
+  border-radius: 5px;
+}
+
+.header-user_account-board-feature {
+  width: 160%;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  font-weight: 500;
+  background-color: #000;
+  border-radius: 5px;
+  display: none;
+}
+
+.header-user_account-board-feature.active {
+  display: block;
+}
+
+.header-user_account-board-feature-profile,
+.header-user_account-board-feature-logout {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 8px 0;
+  padding-left: 12px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.header-user_account-board-feature a:hover {
+  background-color: #1cb803;
+}
+
+.header-user_account-board-icon {
+  font-size: 12px;
+  margin-left: 12px;
+}
+
+.header-user_cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.header-user_cart-icon {
+  font-size: 20px;
+  position: relative;
+}
+
+.header-user_cart-badge {
+  width: 20px;
+  height: 20px;
+  top: -20px;
+  right: -20px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 100%;
+  background-color: red;
+  color: #fff;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

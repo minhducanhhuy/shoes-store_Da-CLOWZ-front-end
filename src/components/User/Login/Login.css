@@ -1,0 +1,63 @@
+.login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.login-board {
+  width: 33.3%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  box-shadow: 0 1px 11px hsla(0, 0%, 65.9%, 0.27);
+  text-align: center;
+}
+
+.login-board_gmail,
+.login-board_password {
+  width: 100%;
+  padding: 20px;
+  margin: 0 36px;
+  opacity: 0.8;
+  border: 1px #867f7f solid;
+  border-radius: 3px;
+}
+
+.login-board_gmail::placeholder,
+.login-board_password::placeholder {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.login-board_gmail {
+  margin-top: 36px;
+}
+
+.login-board_password {
+  margin-top: 24px;
+}
+.login-board_btn {
+  width: 100%;
+  margin: 24px 36px;
+  padding: 20px;
+  color: #fff;
+  background-color: #1cb803;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.login-create_account {
+  width: 100%;
+  margin: 0 36px;
+  margin-bottom: 36px;
+  opacity: 0.6;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}

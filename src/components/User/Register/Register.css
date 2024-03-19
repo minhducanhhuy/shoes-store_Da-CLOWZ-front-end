@@ -1,0 +1,70 @@
+.Register {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Register-board {
+  width: 33.3%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  box-shadow: 0 1px 11px hsla(0, 0%, 65.9%, 0.27);
+  text-align: center;
+}
+
+.Register-board_username,
+.Register-board_gmail,
+.Register-board_password {
+  width: 100%;
+  padding: 20px;
+  margin: 0 36px;
+  opacity: 0.8;
+  border: 1px #867f7f solid;
+  border-radius: 3px;
+}
+
+.Register-board_username::placeholder,
+.Register-board_gmail::placeholder,
+.Register-board_password::placeholder {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.Register-board_username {
+  margin-top: 36px;
+}
+
+.Register-board_gmail,
+.Register-board_password {
+  margin-top: 24px;
+}
+
+.Register-board_btn {
+  width: 100%;
+  margin: 24px 36px;
+  padding: 20px;
+  color: #fff;
+  background-color: #1cb803;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.Register-login_account {
+  width: 100%;
+  margin: 0 36px;
+  margin-bottom: 36px;
+  opacity: 0.6;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.Register-login_account span {
+  font-weight: bold;
+}

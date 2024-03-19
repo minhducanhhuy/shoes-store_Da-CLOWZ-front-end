@@ -1,0 +1,178 @@
+.profile {
+  margin: 48px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.profile-main {
+  width: 30%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.profile-background {
+  width: 100%;
+  height: 160px;
+  background-image: url('https://cdn.sforum.vn/sforum/wp-content/uploads/2022/03/Download-wallpaper-1920x1080-girl-twilight-clouds-anime-full-hd-hdtv-fhd-1080p-hd-background.png');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.profile-info_avatar {
+  width: 50%;
+  margin-right: 20px;
+  position: relative;
+}
+.profile-info_avatar-img {
+  width: 55%;
+  padding-bottom: 55%;
+  background-image: url('https://cdn.sforum.vn/sforum/wp-content/uploads/2022/03/48-1.jpg');
+  background-size: cover;
+  background-color: cyan;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -16px;
+  left: 62px;
+  box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.377);
+}
+.profile-info_container {
+  width: 50%;
+}
+.profile-info_Name {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.profile-info_date-created {
+  margin-top: 12px;
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
+
+.profile-setting_btn,
+.profile-orderList_btn {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 20px 0;
+  padding-left: 32px;
+  border-top: 1px solid #e4e4e4;
+  cursor: pointer;
+  letter-spacing: 1.2px;
+}
+
+.profile-setting_btn.active {
+  background-color: #e5fee9;
+}
+
+.profile-orderList_btn.active {
+  background-color: #e5fee9;
+}
+
+.profile-orderList_btn {
+  position: relative;
+}
+
+.profile-orderList_btn-count {
+  width: 20px;
+  height: 20px;
+  right: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 100%;
+  background-color: red;
+  color: #fff;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profile-setting-info {
+  margin-top: 24px;
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-setting-item {
+  width: 50%;
+  padding-bottom: 32px;
+}
+
+.prodile-setting-item_content {
+  padding: 12px 0;
+  color: #8a8a8a;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.profile-setting-item-input {
+  width: 85%;
+  padding: 20px 10px;
+  font-size: 17px;
+  background-color: #e5fee9;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.profile-setting-item-input:focus {
+  background-color: #fff;
+}
+
+.profile-setting-item-input.active::placeholder {
+  color: #000;
+}
+
+.profile-setting-update_btn {
+  width: 100%;
+  background-color: #1cb803;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 16px;
+}
+
+.profile-orderList {
+  margin-top: 24px;
+  width: 60%;
+  padding: 24px 28px;
+  background-color: #cff4fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: #055160;
+}
+
+.profile-orderList-shopping_btn {
+  color: #fff;
+  background-color: #2d9f6a;
+  cursor: pointer;
+  margin: 0 12px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.profile-orderList-shopping_btn:hover {
+  background-color: #146c43;
+}

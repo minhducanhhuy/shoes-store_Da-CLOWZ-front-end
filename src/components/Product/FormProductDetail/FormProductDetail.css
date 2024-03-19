@@ -1,0 +1,211 @@
+.formProductDetail {
+  margin: 0 120px;
+  margin-bottom: 120px;
+}
+
+.formProductDetail-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formProductDetail-image {
+  width: 50%;
+  background-color: #f3fbf7;
+}
+
+.formProductDetail-info {
+  width: 45%;
+}
+
+.formProductDetail-name {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 28px;
+}
+
+.formProductDetail-describe {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #817c7c;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+
+.formProductDetail-container {
+  width: 70%;
+  border: 2px solid #f3f3f3;
+}
+
+.formProductDetail-property {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  color: #272a2c;
+  padding: 24px 32px;
+  border-bottom: 2px solid #f3f3f3;
+}
+
+.formProductDetail-reviews_count,
+.formProductDetail-property span {
+  color: #000;
+  font-weight: bold;
+}
+
+.formProductDetail-price {
+}
+
+.formProductDetail-status {
+}
+
+.formProductDetail-reviews-list {
+  display: flex;
+}
+
+.formProductDetail-reviews {
+}
+
+.formProductDetail-reviews_stars {
+  color: #ebb450;
+}
+
+.formProductDetail-reviews_count {
+  margin-left: 12px;
+}
+
+.formProductDetail-quantity {
+}
+
+.formProductDetail-quantity_input {
+  width: 100px;
+  height: 40px;
+  background-color: #f3f3f3;
+  border: 0;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.formProductDetail-addToCart_btn {
+  height: 48px;
+  background-color: #000;
+  font-size: 16px;
+  color: #f3f3f3;
+  font-weight: bolder;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.formProductDetail-addToCart_btn:hover {
+  background-color: #1cb803;
+}
+
+.formProductDetail-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.formProductDetail-commentBoard {
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+.formProductDetail-commentBoard_form {
+  background-color: #f8f9fa;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  padding: 16px;
+  margin-top: 28px;
+  border-radius: 5px;
+}
+
+.formProductDetail-commentBoard_name,
+.formProductDetail-commentBoard_stars,
+.formProductDetail-commentBoard_date {
+  margin-bottom: 12px;
+  font-size: 18.5px;
+}
+
+.formProductDetail-commentBoard_name {
+  font-weight: bold;
+}
+
+.formProductDetail-commentBoard_stars {
+  color: #ebb450;
+}
+
+.formProductDetail-commentBoard_date {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.formProductDetail-commentBoard_comment {
+  font-size: 16px;
+  font-weight: 500;
+  color: #055160;
+  background-color: #cff4fc;
+  border-color: #b6effb;
+  padding: 16px;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.formProductDetail-commentUser {
+  width: 45%;
+}
+
+.formProductDetail-commentUser_form {
+  width: 100%;
+}
+
+.formProductDetail-commentUser_title {
+  font-weight: bolder;
+  font-size: 18px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.formProductDetail-commentUser_rating,
+.formProductDetail-commentUser_input {
+  width: 95%;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  padding: 16px;
+}
+
+.formProductDetail-commentUser_rating,
+.formProductDetail-commentUser_rating option {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.formProductDetail-commentUser_input {
+  width: 90%;
+  font-size: 16px;
+  padding-bottom: 60px;
+  overflow-y: auto;
+}
+.formProductDetail-commentUser_submit {
+  height: 48px;
+  background-color: #000;
+  font-size: 16px;
+  color: #f3f3f3;
+  font-weight: bolder;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out 0s;
+  letter-spacing: 6px;
+  margin-top: 24px;
+}

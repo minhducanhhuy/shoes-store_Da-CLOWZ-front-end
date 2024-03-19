@@ -1,0 +1,37 @@
+.FormProductIntro {
+  padding: 12px;
+  margin-bottom: 48px;
+  border-radius: 5px;
+  border: 1px solid #f3f3f3;
+  width: 30%;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+.FormProductIntro-image {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  background-color: #f3fbf7;
+}
+.FormProductIntro-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.FormProductIntro-review {
+  margin-top: 12px;
+  display: flex;
+  justify-content: left;
+}
+.FormProductIntro-review_stars {
+  margin-right: 16px;
+  color: #ebb450;
+}
+.FormProductIntro-review_count {
+}
+.FormProductIntro-price {
+  margin-top: 12px;
+  font-weight: bold;
+}
