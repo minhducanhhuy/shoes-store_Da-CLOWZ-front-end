@@ -7,5 +7,43 @@
 }
 
 .productList-pagination {
-  margin-top: 68px;
+  margin-top: 12px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.productList-pagination_page-item {
+  padding: 12px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+.productList-pagination_page-item:first-child {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.productList-pagination_page-item:last-child {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.productList-pagination_page-item.active {
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+}
+
+.productList-pagination_page-item:hover {
+  background-color: #e9ecef;
+  border-color: #dee2e6;
 }

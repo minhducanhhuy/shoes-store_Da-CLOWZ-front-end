@@ -6,18 +6,34 @@ import FormProductDetail from '../FormProductDetail';
 
 function ProductList({ productsProp }) {
   const products = productsProp;
-  const [countPage, setCountPage] = useState([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+  const quantityPage = Math.ceil(products.length / 6);
+  const [countPage, setCountPage] = useState(Array.from({ length: quantityPage }));
+  const [currentPage, setCurrentPage] = useState(1);
 
   return (
     <div>
       <div className="productList">
         {products.map((product, index) => {
-          if (product.id <= 6) return <FormProductIntro key={index} productProp={product} />;
+          if (product.id >= currentPage * 6 - 5 && product.id <= currentPage * 6)
+            return <FormProductIntro key={index} productProp={product} />;
         })}
       </div>
       <div className="productList-pagination">
-        {countPage.map((count, index) => {
-          return <div>{count}</div>;
+        {countPage.map((page, index) => {
+          return (
+            <div
+              className={
+                currentPage == index + 1
+                  ? 'productList-pagination_page-item active'
+                  : 'productList-pagination_page-item'
+              }
+              onClick={() => {
+                setCurrentPage(index + 1);
+              }}
+            >
+              {index + 1}
+            </div>
+          );
         })}
       </div>
     </div>
